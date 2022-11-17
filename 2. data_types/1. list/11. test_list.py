@@ -1,0 +1,11 @@
+list_one = ["Python", "API", "SQL", 'DevOps', 2021, 21.07, True, False]
+list_one.append("test")
+print(list_one)
+list_one.insert(4, 2022)
+print(list_one)
+list_one.pop()
+print(list_one)
+list_one.pop(4)
+print(list_one)
+list_one.remove(21.07)
+print(list_one)

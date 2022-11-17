@@ -1,0 +1,6 @@
+file = open(r"D:\1. Naresh\test_data.txt")
+# print(file.read())
+# print(file.read(2))
+print(file.readline())
+print(file.read())
+file.close()
